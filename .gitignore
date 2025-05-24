@@ -1,0 +1,77 @@
+# Archivos compilados
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Directorios de build
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# Archivos generados por el compilador
+*.d
+*.so
+*.dylib
+*.dll
+
+# Archivos de depuración
+*.pdb
+*.ilk
+
+# Archivos temporales del editor
+*~
+*.swp
+*.swo
+.vscode/
+.vs/
+*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de log
+*.log
+
+# Archivos CSV generados durante las pruebas
+titanic_sample.csv
+housing_sample.csv
+*.csv
+
+# Archivos de core dump
+core
+core.*
+
+# Archivos de CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Archivos de documentación generada
+docs/html/
+docs/latex/
+
+# Archivos de profiling
+gmon.out
+*.gcov
+*.gcda
+*.gcno
+
+# Archivos de valgrind
+vgcore.*
+massif.out.*
+
+# Directorios específicos del proyecto
+data/temp/
+logs/
+output/
